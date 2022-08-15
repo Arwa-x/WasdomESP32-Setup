@@ -6,7 +6,6 @@ Make sure your computer has the latest version of the Arduino IDE from [here](ht
 ## Contents:
   - [Installing ESP32 Add-on in Arduino IDE](#installing-esp32-add-on-in-arduino-ide)
   - [Testing the Installation](#testing-the-installation)
-  - [Documentation](#documentation)
 
 ## Installing ESP32 Add-on in Arduino IDE
 To install the ESP32 board in your Arduino IDE, follow these steps:
@@ -23,8 +22,9 @@ And That’s it!
 ## Testing the Installation
 Plug the ESP32 board to your computer. With your Arduino IDE open, follow these steps:
 * Select your Board in `Tools` > `Board:"Arduino Uno"` > `ESP32 Arduino` > `WEMOS D1 MINI ESP32`
-* Select the Port in `Tools` > `Port` > `COM3` 
+* Select the Port in `Tools` > `Port` > `COM3`
+ 
 Note: if you don’t see the COM Port in your Arduino IDE, you need to install the [CP210x USB to UART Bridge VCP Drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
-* Open the following example under `File` > `Examples` > Basics > Blink
+* Open the following example under `File` > `Examples` > `Basics` > `Blink`
 * A new sketch opens in your Arduino IDE, press the Upload button in the Arduino IDE
 You should see a "Done uploading" message and the led of the ESP32 is now working 
